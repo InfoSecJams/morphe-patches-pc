@@ -1,6 +1,6 @@
 # Patches
 
-> Generated from `patches-list.json` — **v1.0.2** (`main`) · **319 patches** across **228 apps** · back to [README](README.md)
+> Generated from `patches-list.json` — **v1.0.3** (`main`) · **318 patches** across **228 apps** · back to [README](README.md)
 
 ---
 
@@ -1593,7 +1593,6 @@
 | Patch | Details |
 |---|---|
 | **Unlock Patron** | Unlocks Pocket Casts Patron yearly feature checks. |
-| **Unlock Patron (Wear OS)** | Unlocks Pocket Casts Patron yearly feature checks for Wear OS. |
 
 ---
 

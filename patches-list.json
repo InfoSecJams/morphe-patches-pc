@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "patches": [
     {
       "name": "AAAD Premium",
@@ -4037,37 +4037,6 @@
     {
       "name": "Unlock Patron",
       "description": "Unlocks Pocket Casts Patron yearly feature checks.",
-      "default": true,
-      "dependencies": [],
-      "compatiblePackages": [
-        {
-          "packageName": "au.com.shiftyjelly.pocketcasts",
-          "name": "Pocket Casts",
-          "description": null,
-          "apkFileType": "APKS",
-          "appIconColor": "#F43E37",
-          "signatures": null,
-          "targets": [
-            {
-              "version": "8.16",
-              "versionCodes": {
-                "ARM64_V8A": 9441,
-                "ARMEABI_V7A": 9441,
-                "X86_64": 9441,
-                "X86": 9441
-              },
-              "isExperimental": false,
-              "minSdk": null,
-              "description": null
-            }
-          ]
-        }
-      ],
-      "options": []
-    },
-    {
-      "name": "Unlock Patron (Wear OS)",
-      "description": "Unlocks Pocket Casts Patron yearly feature checks for Wear OS.",
       "default": true,
       "dependencies": [],
       "compatiblePackages": [

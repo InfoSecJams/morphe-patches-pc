@@ -93,7 +93,7 @@ Bug reports must include:
 ## 🩹 Patches list
 
 <!-- PATCHES_START -->
-> **[v1.0.2](https://github.com/cyberphunk27/morphe-patches-pc/releases/tag/v1.0.2)**&nbsp;&nbsp;&middot;&nbsp;&nbsp;`main`&nbsp;&nbsp;&middot;&nbsp;&nbsp;**319 patches** across **228 apps**&nbsp;&nbsp;&middot;&nbsp;&nbsp;[Full details](PATCHES.md)
+> **[v1.0.3](https://github.com/InfoSecJams/morphe-patches-pc/releases/tag/v1.0.3)**&nbsp;&nbsp;&middot;&nbsp;&nbsp;`main`&nbsp;&nbsp;&middot;&nbsp;&nbsp;**318 patches** across **228 apps**&nbsp;&nbsp;&middot;&nbsp;&nbsp;[Full details](PATCHES.md)
 
 | # | App | Patches | Version | Package |
 |---|---|---|---|---|
@@ -251,7 +251,7 @@ Bug reports must include:
 | 152 | [**Pixel Habit Tracker**](PATCHES.md#pixel-habit-tracker-compixelalpixelhabittracker) | 1 | `2.5.0` | [`com.pixel.al.pixelhabittracker`](https://play.google.com/store/apps/details?id=com.pixel.al.pixelhabittracker) |
 | 153 | [**PLAYit**](PATCHES.md#playit-complayitvideoplayer) | 1 | `2.7.50.12` | [`com.playit.videoplayer`](https://play.google.com/store/apps/details?id=com.playit.videoplayer) |
 | 154 | [**Pocket Bard**](PATCHES.md#pocket-bard-commojofiltermediallcrpgsoundsystem) | 1 | `3.1.17` | [`com.MojoFilterMediaLLC.RPGSoundSystem`](https://play.google.com/store/apps/details?id=com.MojoFilterMediaLLC.RPGSoundSystem) |
-| 155 | [**Pocket Casts**](PATCHES.md#pocket-casts-aucomshiftyjellypocketcasts) | 2 | `8.16` | [`au.com.shiftyjelly.pocketcasts`](https://play.google.com/store/apps/details?id=au.com.shiftyjelly.pocketcasts) |
+| 155 | [**Pocket Casts**](PATCHES.md#pocket-casts-aucomshiftyjellypocketcasts) | 1 | `8.16` | [`au.com.shiftyjelly.pocketcasts`](https://play.google.com/store/apps/details?id=au.com.shiftyjelly.pocketcasts) |
 | 156 | [**PodsLink**](PATCHES.md#podslink-netpodslink) | 1 | `1.4.0` | [`net.podslink`](https://play.google.com/store/apps/details?id=net.podslink) |
 | 157 | [**Police Scanner**](PATCHES.md#police-scanner-policescannerradiobroadcastifycitizen) | 1 | `1.29.0-260420093` | [`police.scanner.radio.broadcastify.citizen`](https://play.google.com/store/apps/details?id=police.scanner.radio.broadcastify.citizen) |
 | 158 | [**PortDroid**](PATCHES.md#portdroid-comstealthcopterportdroid) | 1 | `1.0.7` | [`com.stealthcopter.portdroid`](https://play.google.com/store/apps/details?id=com.stealthcopter.portdroid) |

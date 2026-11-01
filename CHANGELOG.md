@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/InfoSecJams/morphe-patches-pc/compare/v1.0.2...v1.0.3) (2026-11-01)
+
+### 🐛 Bug Fixes
+
+* include Aviate 1.5.1 patterns in build ([52b8c34](https://github.com/InfoSecJams/morphe-patches-pc/commit/52b8c34e5b3cceba470a32b9a7922dd5bf2aeb48))
+* update aviate to 1.5.1 ([7a6bb86](https://github.com/InfoSecJams/morphe-patches-pc/commit/7a6bb866e0477ab52dcc4968671456836ab43f4f))
+
 ## [1.0.2](https://github.com/cyberphunk27/morphe-patches-pc/compare/v1.0.1...v1.0.2) (2026-10-04)
 
 ### 🐛 Bug Fixes
