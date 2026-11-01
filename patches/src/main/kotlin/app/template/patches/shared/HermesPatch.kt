@@ -9,6 +9,15 @@ internal const val HERMES_BUNDLE_PATH = "assets/index.android.bundle"
 internal val HERMES_MAGIC = bytesOf("C6 1F BC 03 C1 03 19 1F")
 
 fun hermesPatch(supplier: () -> Set<Pair<String, String>>) =
+    hermesPatchSets { listOf(supplier()) }
+
+/**
+ * Version-agnostic variant: [supplier] returns one pattern set per supported
+ * app version. The set whose patterns ALL match the bundle is applied; this
+ * keeps a single patch working across releases with different Hermes layouts
+ * without ever risking a partial/ambiguous match.
+ */
+fun hermesPatchSets(supplier: () -> List<Set<Pair<String, String>>>) =
     rawResourcePatch {
         execute {
             val file = get(HERMES_BUNDLE_PATH, true)
@@ -22,7 +31,14 @@ fun hermesPatch(supplier: () -> Set<Pair<String, String>>) =
             }
 
             val version = fileBytes.readLittleEndianInt(8)
-            supplier().forEach { (from, to) ->
+            val sets = supplier()
+            val matches = sets.filter { set -> set.all { (from, _) -> fileBytes.indexOf(bytesOf(from)) >= 0 } }
+            if (matches.isEmpty()) {
+                throw PatchException(
+                    "No Hermes pattern set matched this bundle. Expected one of ${sets.size} supported versions."
+                )
+            }
+            matches.first().forEach { (from, to) ->
                 fileBytes.replaceUnique(bytesOf(from), bytesOf(to))
             }
 

@@ -4066,6 +4066,37 @@
       "options": []
     },
     {
+      "name": "Unlock Patron (Wear OS)",
+      "description": "Unlocks Pocket Casts Patron yearly feature checks for Wear OS.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "au.com.shiftyjelly.pocketcasts",
+          "name": "Pocket Casts",
+          "description": null,
+          "apkFileType": "APKS",
+          "appIconColor": "#F43E37",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "8.16",
+              "versionCodes": {
+                "ARM64_V8A": 9441,
+                "ARMEABI_V7A": 9441,
+                "X86_64": 9441,
+                "X86": 9441
+              },
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
       "name": "Unlock Platinum",
       "description": "Unlocks Life360 Platinum feature in app.",
       "default": true,
@@ -7738,6 +7769,18 @@
                 "ARMEABI_V7A": 219,
                 "X86_64": 219,
                 "X86": 219
+              },
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            },
+            {
+              "version": "1.5.1",
+              "versionCodes": {
+                "ARM64_V8A": 222,
+                "ARMEABI_V7A": 222,
+                "X86_64": 222,
+                "X86": 222
               },
               "isExperimental": false,
               "minSdk": null,
